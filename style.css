@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh; /* Ensures the body fills the viewport height */
+    display: flex; /* Enables flexbox layout for the body */
+    align-items: center; /* Vertically centers the content within the body */
+    justify-content: center; /* Horizontally centers the content within the body */
+  }
+  
+  
+  .button {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  
+  .labelContainer{
+
+    margin-left:5px;
+
+  }
+  
